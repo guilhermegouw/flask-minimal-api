@@ -1,0 +1,13 @@
+HTTP METHODS               FUNCTIONS                 URL EXAMPLES
+GET                        Get all the recipes       http://localhost:5000/recipes
+GET                        Get one particular recipe http://localhost:5000/recipes/20
+POST                       Create a recipe           http://localhost:5000/recipes
+PUT                        Update a recipe           http://localhost:5000/recipes/20
+DELETE                     Delete a recipe           http://localhost:5000/recipes/20
+
+
+A typical recipe should have the following attributes
+
+• ID: The unique identifier for the recipe
+• Name: The name of the recipe
+• Description: The description of the recipe
